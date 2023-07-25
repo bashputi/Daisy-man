@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daisy Man</title>
+    <!--DaisyUl-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/3ec680ebea.js" crossorigin="anonymous"></script>
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!--style css-->
+    <style>
+        .font-manrop{
+          font-family: 'Manrope', sans-serif;
+        }
+    </style>
+    <!--customized color-->
+     <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body class="font-manrop">
+    <header class="container mx-auto">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+             <div>
+              <img src="./images/banner.png" class="max-w-sm " />
+              <div class="-mt-16 flex items-center gap-4 drop-shadow-lg bg-white p-5 w-60">
+                <!--ratings badge-->
+                <i class="fa-solid fa-star text-3xl text-amber-400"></i>
+                <div>
+                  <h3 class="text-3xl">5.00</h3>
+                  <p>Trust Pilot Ratings</p>
+                </div>
+              </div>
+             </div>
+          <div>
+            <h1 class="text-7xl font-extrabold">It's good <br> tea time at The <br> Tree House</h1>
+            <p class="py-6">Tea and Botanical Solutions Supplier Give Optimun Satisfaction To Your Taste Buds.</p>
+            <button class="btn btn-primary">EXPLORE MORE</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="container mx-auto">
+      <!-- feature section -->
+      <section class="text-center my-24">
+        <h2 class="text-5xl font-extrabold mb-5">Our Featuted Products</h2>
+        <p class="lg:max-w-3xl mb-10 mx-auto">There are many variations of passenges of Lorem ipsum 
+           dolor sit amet consectetur adipisicing elit. Quos 
+            maiores consequuntur exercitationem et!sit amet 
+            consectetur adipisicing elit.</p>
+            <!-- feature tea card container -->
+            <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+              <!--card1 1-->
+              <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                <figure><img src="./images/tea-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="text-2xl font-bold">Milk Tea</h2> 
+                  <p>Creamer could be replaced by fresh milk</p>
+                </div>
+             </div>
+              <!--card1 2-->
+              <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                <figure><img src="./images/tea-2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="text-2xl font-bold">Milk Tea</h2> 
+                  <p>Creamer could be replaced by fresh milk</p>
+                </div>
+             </div>
+              <!--card1 3-->
+              <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                <figure><img src="./images/tea-3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="text-2xl font-bold">Milk Tea</h2> 
+                  <p>Creamer could be replaced by fresh milk</p>
+                </div>
+             </div>
+              <!--card1 4-->
+              <div class="card p-8 bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl">
+                <figure><img src="./images/tea-4.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="text-2xl font-bold">Milk Tea</h2> 
+                  <p>Creamer could be replaced by fresh milk</p>
+                </div>
+             </div>
+
+            </div>
+
+
+            
+      </section>
+      <!--tea section-->
+      <section class="my-24 gap-8 flex flex-col lg:flex-row">
+        <div class="grid flex-1 gap-4 grid-cols-1 md:grid-cols-2">
+          <div class="rounded-xl h-36 bg-gradient-to-r from-red-100 to-amber-100"></div>
+          <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center"><img src="images/fresh-1.png" alt=""></div>
+          <div class="row-span-2 bg-[#5776391A] rounded-lg px-8 py-12 flex justify-center"><img src="images/fresh-2.png" alt=""></div>
+          <div class="rounded-xl h-36 bg-gradient-to-r from-purple-100 to-pink-100"></div>
+          
+        </div>
+
+        <div class="space-y-5 flex-1">
+          <h3 class="text-5xl font-extrabold">
+            Great Tea, Freshly <br> Presented
+          </h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br>
+            Totam eveniet expedita facilis repellendus omnis placeat <br>
+             voluptate ipsam laborum, nobis consequatur, harum fugiat! <br>
+              Hic, voluptatibus. Tempora deleniti exercitationem dolor
+               possimus asperiores!</p>
+               <h4 class="text-xl font-extrabold">
+                Uniqe Taste
+               </h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                elit. Ut quae placeat unde incidunt</p>
+                <h4 class="text-xl font-extrabold">
+                  Premium Quality
+                </h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing <br>
+                  elit. Ut quae placeat unde incidunt</p>
+        </div>
+
+      </section>
+      <!--meet section-->
+      <section class="my-24 rounded-xl flex flex-col lg:flex-row bg-gradient-to-r from-[#FF8938] to-[#F00] px-16 py-24">
+        <div class="space-y-5">
+          <h2 class="text-5xl font-extrabold text-white">Meet Our Super <br>Clients
+          </h2>
+          <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+             Necessitatibus similique minima amet! Dolores obcaecati eligendi 
+              tempore, minus, maiores at reprehenderit eveniet error sequi, 
+               iusto corporis inci deleniti distinctio!</p>
+               <button class="btn btn-primary">Show All</button>
+        </div>
+        <div>
+          <!--reveiw section-->
+          <div class="relative p-10 rounded-lg bg-white">
+            <img class="absolute -top-5 -left-5" src="images/client.png" alt="">
+            <p>We are providing the best and suitable home
+            incurance services for people who are 
+             interested to treatment</p>
+             <h4 class="font-bold mt-5">Ilham Yuda</h4>
+             <p class="font-medium">Businessman</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    
+</body>
+</html>
